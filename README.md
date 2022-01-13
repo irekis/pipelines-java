@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/irekisdevops/PowerPlatform/_apis/build/status/irekis.pipelines-java?branchName=master)](https://dev.azure.com/irekisdevops/PowerPlatform/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
