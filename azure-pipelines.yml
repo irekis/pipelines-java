@@ -15,3 +15,7 @@ steps:
   inputs:
     DefaultVersion: true
 
+- task: PowerPlatformChecker@0
+  inputs:
+    PowerPlatformSPN: 'MySrvConn'
+    RuleSet: '0ad12346-e108-40b8-a956-9a8f95ea18c9'
