@@ -20,6 +20,3 @@ steps:
     jdkDestinationDirectory: '/home/irekis/builds'
     cleanDestinationDirectory: true
 
-- task: PowerPlatformToolInstaller@0
-  inputs:
-    DefaultVersion: true
