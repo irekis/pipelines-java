@@ -1,4 +1,5 @@
 # Maven
+
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
@@ -18,3 +19,7 @@ steps:
     jdkFile: '/home/irekis/openjdk-17.0.1_linux-x64_bin.tar.gz'
     jdkDestinationDirectory: '/home/irekis/builds'
     cleanDestinationDirectory: true
+
+- task: PowerPlatformToolInstaller@0
+  inputs:
+    DefaultVersion: true
